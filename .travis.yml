@@ -5,12 +5,12 @@ install:
   - npm install hexo-cli -g
   - npm install
 before_script:
-  - sed -i "" "s/LEANCLOUD_COUNTER_APP_ID/$LEANCLOUD_COUNTER_APP_ID/g" $TRAVIS_BUILD_DIR/_config.yml
-  - sed -i "" "s/LEANCLOUD_COUNTER_APP_KEY/$LEANCLOUD_COUNTER_APP_KEY/g" $TRAVIS_BUILD_DIR/_config.yml
-  - sed -i "" "s/LEANCLOUD_COUNTER_USER_NAME/$LEANCLOUD_COUNTER_USER_NAME/g" $TRAVIS_BUILD_DIR/_config.yml
-  - sed -i "" "s/LEANCLOUD_COUNTER_PASSWORD/$LEANCLOUD_COUNTER_PASSWORD/g" $TRAVIS_BUILD_DIR/_config.yml # 博客配置，LeadCloud 计数器
-  - sed -i "" "s/LEANCLOUD_COUNTER_APP_ID/$LEANCLOUD_COUNTER_APP_ID/g" $TRAVIS_BUILD_DIR/source/_data/next.yml
-  - sed -i "" "s/LEANCLOUD_COUNTER_APP_KEY/$LEANCLOUD_COUNTER_APP_KEY/g" $TRAVIS_BUILD_DIR/source/_data/next.yml # 主题配置，LeadCloud 计数器
+  - sed -i "" "s/LEANCLOUD_COUNTER_APP_ID/$LEANCLOUD_COUNTER_APP_ID/g" ./_config.yml
+  - sed -i "" "s/LEANCLOUD_COUNTER_APP_KEY/$LEANCLOUD_COUNTER_APP_KEY/g" ./_config.yml
+  - sed -i "" "s/LEANCLOUD_COUNTER_USER_NAME/$LEANCLOUD_COUNTER_USER_NAME/g" ./_config.yml
+  - sed -i "" "s/LEANCLOUD_COUNTER_PASSWORD/$LEANCLOUD_COUNTER_PASSWORD/g" ./_config.yml # 博客配置，LeadCloud 计数器
+  - sed -i "" "s/LEANCLOUD_COUNTER_APP_ID/$LEANCLOUD_COUNTER_APP_ID/g" ./source/_data/next.yml
+  - sed -i "" "s/LEANCLOUD_COUNTER_APP_KEY/$LEANCLOUD_COUNTER_APP_KEY/g" ./source/_data/next.yml # 主题配置，LeadCloud 计数器
 script:
   - hexo g -d
 addons:
