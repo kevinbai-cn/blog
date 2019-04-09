@@ -83,7 +83,7 @@ deploy:
 # Custom
 leancloud_counter_security:
   enable_sync: true
-  app_id: 4CNCkCt73GBjXnIo4kAge6R2-gzGzoHsz
-  app_key: 1OopAHXYpRUg36o365jWAFmm
-  username:
-  password:
+  app_id: LEANCLOUD_COUNTER_APP_ID
+  app_key: LEANCLOUD_COUNTER_APP_KEY
+  username: LEANCLOUD_COUNTER_USER_NAME
+  password: LEANCLOUD_COUNTER_PASSWORD
