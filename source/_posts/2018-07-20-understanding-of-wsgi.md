@@ -2,7 +2,7 @@
 title: 说说我对 WSGI 的理解
 date: 2018-07-20 07:48:58
 categories:
-- Web 开发
+- Web
 tags:
 - Python
 - WSGI
