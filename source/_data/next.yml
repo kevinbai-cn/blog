@@ -283,7 +283,7 @@ post_edit:
 disqus:
   enable: true
   shortname: kevinbai-s-notes
-  count: true
+  count: false
   lazyload: true
 
 
