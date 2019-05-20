@@ -298,7 +298,7 @@ baidu_analytics: f97dffda4c6c87f8b174e7efbc90cbee
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
-  enable: true
+  enable: false
   app_id: LEANCLOUD_COUNTER_APP_ID
   app_key: LEANCLOUD_COUNTER_APP_KEY
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security

@@ -78,7 +78,7 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: leancloud_counter_security_sync
+  # type: leancloud_counter_security_sync
 
 # Custom
 leancloud_counter_security:
